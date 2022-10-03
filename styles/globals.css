@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
 
 * {
   scrollbar-width: none;
@@ -18,6 +19,7 @@ body {
   background-color: rgb(21, 21, 21);
   font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 a {
@@ -31,6 +33,10 @@ a {
 
 #cardTitle {
   letter-spacing: 5px;
+}
+
+#star {
+  font-family: 'Cousine', monospace;
 }
 
 /* @media (prefers-color-scheme: dark) {

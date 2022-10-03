@@ -11,6 +11,12 @@ module.exports = {
         secondary: "rgb(148, 148, 149)",
         dusk: "rgb(32, 32, 34)",
       },
+      fontSize: {
+        "2xs": "0.5rem",
+      },
+      fontFamily: {
+        cousine: ["Cousine", "monospace"],
+      },
     },
   },
   plugins: [],
