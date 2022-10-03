@@ -25,7 +25,7 @@ const Projects = () => {
                         real time stock market data, finance and business news.</p>
                 </div>
                 <div className='flex space-x-1'>
-                    <Image src={star} width={15} height={15} />
+                    <Image src={star} width={15} height={15} alt='github link' />
                     <p className='text-xs text-secondary' id='star'>5,789</p>
                 </div>
             </div>
@@ -37,7 +37,7 @@ const Projects = () => {
                         real time stock market data, finance news.</p>
                 </div>
                 <div className='flex space-x-1'>
-                    <Image src={star} width={15} height={15} />
+                    <Image src={star} width={15} height={15} alt='github star' />
                     <p className='text-xs text-secondary' id='star'>5,789</p>
                 </div>
             </div>
@@ -49,7 +49,7 @@ const Projects = () => {
                         real time stock market data, finance news.</p>
                 </div>
                 <div className='flex space-x-1'>
-                    <Image src={star} width={15} height={15} />
+                    <Image src={star} width={15} height={15} alt='github star' />
                     <p className='text-xs text-secondary' id='star'>5,789</p>
                 </div>
             </div>
@@ -61,7 +61,7 @@ const Projects = () => {
                         real time stock market data, finance news.</p>
                 </div>
                 <div className='flex space-x-1'>
-                    <Image src={star} width={15} height={15} />
+                    <Image src={star} width={15} height={15} alt='github star' />
                     <p className='text-xs text-secondary' id='star'>5,789</p>
                 </div>
             </div>

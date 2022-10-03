@@ -19,7 +19,7 @@ const AboutMe = () => {
                 <div>
                     <p className='font-normal text-sm leading-7 pr-10' >
                         I'm currently studying a Computer Science at Unity University. I mostly work on full-stack development but I am more interested in back-end development and Algorithms. <span className='text-white underline'>React.js</span> and <span className='text-white underline'>Express.js</span> are the stacks I’m experiencing on, and <span className='font-semibold text-white'>TYPESCRIPT</span> is my best friend.
-                        <br /> <br /> FYI: when It comes to tech talk, I’m that guy who can’t shut up.
+                        <br /> <br /> FYI: when It comes to tech talk, I'm that guy who can't shut up.
                     </p>
                 </div>
             </div>
@@ -27,7 +27,7 @@ const AboutMe = () => {
             <footer className='flex space-x-5'>
                 <a className={ahrefStyle} href="https://www.twitter.com/yonathanDejene" target="_blank" rel="noopener noreferrer">
                     <div className='flex items-center space-x-1'>
-                        <Image src={twitterLogo} width={20} height={20} />
+                        <Image src={twitterLogo} width={20} height={20} alt='twitter link' />
                         <p>
                             twitter
                         </p>
@@ -36,7 +36,7 @@ const AboutMe = () => {
 
                 <a className={ahrefStyle} href="https://www.linkedin.com/in/yonathan-dejene" target="_blank" rel="noopener noreferrer">
                     <div className='flex items-center space-x-1'>
-                        <Image src={linkedInLogo} width={20} height={20} />
+                        <Image src={linkedInLogo} width={20} height={20} alt='linkedIn link' />
                         <p>
                             linkedIn
                         </p>
@@ -44,7 +44,7 @@ const AboutMe = () => {
                 </a>
                 <a className={ahrefStyle} href="https://www.github.com/yonaries/" target="_blank" rel="noopener noreferrer">
                     <div className='flex items-center space-x-1'>
-                        <Image src={githubLogo} width={20} height={20} />
+                        <Image src={githubLogo} width={20} height={20} alt='github link' />
                         <p>
                             github
                         </p>
