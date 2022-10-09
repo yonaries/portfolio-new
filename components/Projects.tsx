@@ -5,7 +5,7 @@ import star from '../assets/Star.svg';
 
 const Projects = () => {
     return (
-        <div className='pt-20' >
+        <div className='pt-20 px-2' >
             <div className='h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all hover:scale-110 hover:border-slate-50 hover:border-2'>
                 <div className='space-y-2'>
                     <p className='text-2xs font-semibold' id='cardTitle'>TYPESCRIPT, REACT</p>

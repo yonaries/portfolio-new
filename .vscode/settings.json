@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["ahref", "cousine", "tsparticles"]
+  "cSpell.words": ["ahref", "cousine", "tsparticles"],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

@@ -16,6 +16,7 @@ module.exports = {
       },
       fontFamily: {
         cousine: ["Cousine", "monospace"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
