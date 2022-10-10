@@ -16,12 +16,13 @@ module.exports = {
       },
       fontFamily: {
         lexend: ["Lexend", "sans-serif"],
-        outfit: ["Outfit", "sans-serif"],
-        inter: ["Inter", "sans-serif"],
       },
       maxWidth: {
         hd: "85.375rem",
         fullhd: "1920rem",
+      },
+      minHeight: {
+        48: "12rem",
       },
     },
   },

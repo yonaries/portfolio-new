@@ -34,9 +34,13 @@ a {
 }
 
 @media (min-width: 768px) {
+
+  #experience:hover>#card:not(:hover) {
+    opacity: 0.5;
+  }
+
   #projects:hover>#card:not(:hover) {
     opacity: 0.5;
-    transition: 0.2s;
   }
 }
 
