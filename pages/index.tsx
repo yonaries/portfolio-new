@@ -9,7 +9,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Yonathan Dejene</title>
+        <title>Yonathan Dejene - Software Developer</title>
+        <meta charSet="UTF-8" />
+        <meta name='robots' content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Full Stack Engineer experienced on building software for the Internet based In Addis Ababa, Ethiopia.. Skilled on Nodejs for backend, Next.js for frontend and GraphQL for API." />
       </Head>
       <div className='px-6 max-w-hd h-screen justify-between font-lexend md:flex md:pl-20 md:overflow-y-hidden '>
         <NavBar />
