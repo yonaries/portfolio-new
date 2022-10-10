@@ -11,10 +11,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Yonathan Dejene</title>
       </Head>
-      <div className='flex self-center max-w-hd h-screen pl-20 overflow-y-hidden justify-between font-lexend'>
+      <div className='px-6 max-w-hd h-screen justify-between font-lexend md:flex md:pl-20 md:overflow-y-hidden '>
         <NavBar />
         <AboutMe />
-        <div className='w-3/5 pl-10 pr-20 h-screen overflow-y-scroll'>
+        <div className='md:w-3/5 md:pl-10 md:pr-20 h-screen md:overflow-y-scroll'>
           <Projects />
         </div>
       </div></>
