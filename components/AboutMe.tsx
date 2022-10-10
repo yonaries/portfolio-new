@@ -4,6 +4,7 @@ import { ahrefStyle } from './NavBar'
 import githubLogo from '../assets/github.svg'
 import twitterLogo from '../assets/twitter.svg'
 import linkedInLogo from '../assets/linkedin.svg'
+import photo from '../assets/1652460611504 1.png'
 
 const AboutMe = () => {
     return (
@@ -18,13 +19,15 @@ const AboutMe = () => {
 
                 <div>
                     <p className='font-normal text-sm leading-7 pr-10' >
-                        I'm currently studying a Computer Science at Unity University. I mostly work on full-stack development but I am more interested in back-end development and Algorithms. <span className='text-white underline'>React.js</span> and <span className='text-white underline'>Express.js</span> are the stacks I’m experiencing on, and <span className='font-semibold text-white'>TYPESCRIPT</span> is my best friend.
+                        I'm currently studying a Computer Science at Unity University. I mostly work on full-stack development but I am more interested in back-end development and Algorithms.
+                        <span className='text-white underline'>Next.js</span> and <span className='text-white underline'>GraphQL</span> are the stacks I’m experiencing on now, and <span className='font-semibold text-white'>TYPESCRIPT</span> is my best friend.
                         <br /> <br /> FYI: when It comes to tech talk, I'm that guy who can't shut up.
                     </p>
                 </div>
             </div>
 
-            <footer className='flex space-x-5'>
+            <footer className='flex space-x-5 items-center'>
+                <Image className='rounded-full' src={photo} width={40} height={40} alt='my photo' />
                 <a className={ahrefStyle} href="https://www.twitter.com/yonathanDejene" target="_blank" rel="noopener noreferrer">
                     <div className='flex items-center space-x-1'>
                         <Image src={twitterLogo} width={20} height={20} alt='twitter link' />

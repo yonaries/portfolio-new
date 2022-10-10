@@ -12,11 +12,12 @@ module.exports = {
         dusk: "rgb(32, 32, 34)",
       },
       fontSize: {
-        "2xs": "0.5rem",
+        "2xs": "0.6rem",
       },
       fontFamily: {
-        cousine: ["Cousine", "monospace"],
-        poppins: ["Poppins", "sans-serif"],
+        lexend: ["Lexend", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },
