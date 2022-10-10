@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <div className='md:pt-20' id='projects'>
             <MobileNavBar title={'PROJECTS'} />
-            <article id='card' className='min-h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all hover:scale-110'>
+            <article id='card' className='min-h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all md:hover:scale-110'>
                 <a href="#" target="_blank" rel="noopener noreferrer">
                     <div className='space-y-2'>
                         <p className='text-2xs font-semibold' id='cardTitle'>TYPESCRIPT, REACT</p>
@@ -21,7 +21,7 @@ const Projects = () => {
                     </div>
                 </a>
             </article>
-            <article id='card' className='min-h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all hover:scale-110'>
+            <article id='card' className='min-h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all md:hover:scale-110'>
                 <a href="#" target="_blank" rel="noopener noreferrer">
                     <div className='space-y-2'>
                         <p className='text-2xs font-semibold' id='cardTitle'>TYPESCRIPT, REACT</p>
@@ -35,7 +35,7 @@ const Projects = () => {
                     </div>
                 </a>
             </article>
-            <article id='card' className='min-h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all hover:scale-110'>
+            <article id='card' className='min-h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all md:hover:scale-110'>
                 <a href="#" target="_blank" rel="noopener noreferrer">
                     <div className='space-y-2'>
                         <p className='text-2xs font-semibold' id='cardTitle'>TYPESCRIPT, REACT</p>
@@ -49,7 +49,7 @@ const Projects = () => {
                     </div>
                 </a>
             </article>
-            <article id='card' className='min-h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all hover:scale-110'>
+            <article id='card' className='min-h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all md:hover:scale-110'>
                 <a href="#" target="_blank" rel="noopener noreferrer">
                     <div className='space-y-2'>
                         <p className='text-2xs font-semibold' id='cardTitle'>TYPESCRIPT, REACT</p>
@@ -63,7 +63,7 @@ const Projects = () => {
                     </div>
                 </a>
             </article>
-            <article id='card' className='min-h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all hover:scale-110'>
+            <article id='card' className='min-h-48 bg-dusk text-white p-10 w-full flex flex-col justify-between my-2 transition-all md:hover:scale-110'>
                 <a href="#" target="_blank" rel="noopener noreferrer">
                     <a href="#" target="_blank" rel="noopener noreferrer"></a>
                     <div className='space-y-2'>
