@@ -1,4 +1,11 @@
 {
-  "cSpell.words": ["ahref", "cousine", "cyllo", "Lexend", "tsparticles"],
+  "cSpell.words": [
+    "ahref",
+    "cousine",
+    "cyllo",
+    "fullhd",
+    "Lexend",
+    "tsparticles"
+  ],
   "typescript.tsdk": "node_modules/typescript/lib"
 }

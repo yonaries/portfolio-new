@@ -19,6 +19,10 @@ module.exports = {
         outfit: ["Outfit", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
+      maxWidth: {
+        hd: "85.375rem",
+        fullhd: "1920rem",
+      },
     },
   },
   plugins: [],

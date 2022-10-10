@@ -17,6 +17,8 @@ body {
   background-color: rgb(21, 21, 21);
   scroll-behavior: smooth;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 a {

@@ -9,7 +9,7 @@ import photo from '../assets/1652460611504 1.png'
 const AboutMe = () => {
     return (
         <div className='flex pt-20 pb-10 flex-col w-2/5 mr-10 text-secondary justify-between sticky top-0'>
-            <div className='flex flex-col h-4/5 justify-around'>
+            <div className='flex flex-col space-y-16 justify-around'>
                 <div>
                     <p className='text-5xl text-white font-extrabold mb-5'>
                         Yonathan Dejene
